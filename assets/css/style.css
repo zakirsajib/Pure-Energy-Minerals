@@ -1,0 +1,2099 @@
+/*---------------------------------------------------------------------*/
+/*  1. GLOBAL STYLES
+/*  1.1 GENERAL STYLES
+/*---------------------------------------------------------------------*/
+
+@font-face {
+    font-family: 'oswaldregular';
+    src: url('font/oswald-regular-webfont.eot');
+    src: url('font/oswald-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/oswald-regular-webfont.woff2') format('woff2'),
+         url('font/oswald-regular-webfont.woff') format('woff'),
+         url('font/oswald-regular-webfont.ttf') format('truetype'),
+         url('font/oswald-regular-webfont.svg#oswaldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'oswaldmedium';
+    src: url('font/oswald-medium-webfont.eot');
+    src: url('font/oswald-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/oswald-medium-webfont.woff2') format('woff2'),
+         url('font/oswald-medium-webfont.woff') format('woff'),
+         url('font/oswald-medium-webfont.ttf') format('truetype'),
+         url('font/oswald-medium-webfont.svg#oswaldmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'oswaldmediumitalic';
+    src: url('font/oswald-mediumitalic-webfont.eot');
+    src: url('font/oswald-mediumitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/oswald-mediumitalic-webfont.woff2') format('woff2'),
+         url('font/oswald-mediumitalic-webfont.woff') format('woff'),
+         url('font/oswald-mediumitalic-webfont.ttf') format('truetype'),
+         url('font/oswald-mediumitalic-webfont.svg#oswaldmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'oswaldlightitalic';
+    src: url('font/oswald-lightitalic-webfont.eot');
+    src: url('font/oswald-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/oswald-lightitalic-webfont.woff2') format('woff2'),
+         url('font/oswald-lightitalic-webfont.woff') format('woff'),
+         url('font/oswald-lightitalic-webfont.ttf') format('truetype'),
+         url('font/oswald-lightitalic-webfont.svg#oswaldlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'oswaldheavyitalic';
+    src: url('font/oswald-heavyitalic-webfont.eot');
+    src: url('font/oswald-heavyitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/oswald-heavyitalic-webfont.woff2') format('woff2'),
+         url('font/oswald-heavyitalic-webfont.woff') format('woff'),
+         url('font/oswald-heavyitalic-webfont.ttf') format('truetype'),
+         url('font/oswald-heavyitalic-webfont.svg#oswaldheavy') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'oswaldlight';
+    src: url('font/oswald-light-webfont.eot');
+    src: url('font/oswald-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/oswald-light-webfont.woff2') format('woff2'),
+         url('font/oswald-light-webfont.woff') format('woff'),
+         url('font/oswald-light-webfont.ttf') format('truetype'),
+         url('font/oswald-light-webfont.svg#oswaldlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'oswaldextralight';
+    src: url('font/oswald-extralight-webfont.eot');
+    src: url('font/oswald-extralight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/oswald-extralight-webfont.woff2') format('woff2'),
+         url('font/oswald-extralight-webfont.woff') format('woff'),
+         url('font/oswald-extralight-webfont.ttf') format('truetype'),
+         url('font/oswald-extralight-webfont.svg#oswaldextralight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'oswaldheavy';
+    src: url('font/oswald-heavy-webfont.eot');
+    src: url('font/oswald-heavy-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/oswald-heavy-webfont.woff2') format('woff2'),
+         url('font/oswald-heavy-webfont.woff') format('woff'),
+         url('font/oswald-heavy-webfont.ttf') format('truetype'),
+         url('font/oswald-heavy-webfont.svg#oswaldheavy') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'oswaldbolditalic';
+    src: url('font/oswald-bolditalic-webfont.eot');
+    src: url('font/oswald-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/oswald-bolditalic-webfont.woff2') format('woff2'),
+         url('font/oswald-bolditalic-webfont.woff') format('woff'),
+         url('font/oswald-bolditalic-webfont.ttf') format('truetype'),
+         url('font/oswald-bolditalic-webfont.svg#oswaldbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'oswaldextra-lightitalic';
+    src: url('font/oswald-extra-lightitalic-webfont.eot');
+    src: url('font/oswald-extra-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/oswald-extra-lightitalic-webfont.woff2') format('woff2'),
+         url('font/oswald-extra-lightitalic-webfont.woff') format('woff'),
+         url('font/oswald-extra-lightitalic-webfont.ttf') format('truetype'),
+         url('font/oswald-extra-lightitalic-webfont.svg#oswaldextra-light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'oswaldbold';
+    src: url('font/oswald-bold-webfont.eot');
+    src: url('font/oswald-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/oswald-bold-webfont.woff2') format('woff2'),
+         url('font/oswald-bold-webfont.woff') format('woff'),
+         url('font/oswald-bold-webfont.ttf') format('truetype'),
+         url('font/oswald-bold-webfont.svg#oswaldbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotothin_italic';
+    src: url('font/roboto-thinitalic-webfont.eot');
+    src: url('font/roboto-thinitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/roboto-thinitalic-webfont.woff2') format('woff2'),
+         url('font/roboto-thinitalic-webfont.woff') format('woff'),
+         url('font/roboto-thinitalic-webfont.ttf') format('truetype'),
+         url('font/roboto-thinitalic-webfont.svg#robotothin_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('font/roboto-regular-webfont.eot');
+    src: url('font/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/roboto-regular-webfont.woff2') format('woff2'),
+         url('font/roboto-regular-webfont.woff') format('woff'),
+         url('font/roboto-regular-webfont.ttf') format('truetype'),
+         url('font/roboto-regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotothin';
+    src: url('font/roboto-thin-webfont.eot');
+    src: url('font/roboto-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/roboto-thin-webfont.woff2') format('woff2'),
+         url('font/roboto-thin-webfont.woff') format('woff'),
+         url('font/roboto-thin-webfont.ttf') format('truetype'),
+         url('font/roboto-thin-webfont.svg#robotothin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotomedium_italic';
+    src: url('font/roboto-mediumitalic-webfont.eot');
+    src: url('font/roboto-mediumitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/roboto-mediumitalic-webfont.woff2') format('woff2'),
+         url('font/roboto-mediumitalic-webfont.woff') format('woff'),
+         url('font/roboto-mediumitalic-webfont.ttf') format('truetype'),
+         url('font/roboto-mediumitalic-webfont.svg#robotomedium_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotomedium';
+    src: url('font/roboto-medium-webfont.eot');
+    src: url('font/roboto-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/roboto-medium-webfont.woff2') format('woff2'),
+         url('font/roboto-medium-webfont.woff') format('woff'),
+         url('font/roboto-medium-webfont.ttf') format('truetype'),
+         url('font/roboto-medium-webfont.svg#robotomedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotolight';
+    src: url('font/roboto-light-webfont.eot');
+    src: url('font/roboto-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/roboto-light-webfont.woff2') format('woff2'),
+         url('font/roboto-light-webfont.woff') format('woff'),
+         url('font/roboto-light-webfont.ttf') format('truetype'),
+         url('font/roboto-light-webfont.svg#robotolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotolight_italic';
+    src: url('font/roboto-lightitalic-webfont.eot');
+    src: url('font/roboto-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/roboto-lightitalic-webfont.woff2') format('woff2'),
+         url('font/roboto-lightitalic-webfont.woff') format('woff'),
+         url('font/roboto-lightitalic-webfont.ttf') format('truetype'),
+         url('font/roboto-lightitalic-webfont.svg#robotolight_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotoitalic';
+    src: url('font/roboto-italic-webfont.eot');
+    src: url('font/roboto-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/roboto-italic-webfont.woff2') format('woff2'),
+         url('font/roboto-italic-webfont.woff') format('woff'),
+         url('font/roboto-italic-webfont.ttf') format('truetype'),
+         url('font/roboto-italic-webfont.svg#robotoitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotobold_italic';
+    src: url('font/roboto-bolditalic-webfont.eot');
+    src: url('font/roboto-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/roboto-bolditalic-webfont.woff2') format('woff2'),
+         url('font/roboto-bolditalic-webfont.woff') format('woff'),
+         url('font/roboto-bolditalic-webfont.ttf') format('truetype'),
+         url('font/roboto-bolditalic-webfont.svg#robotobold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotoblack_italic';
+    src: url('font/roboto-blackitalic-webfont.eot');
+    src: url('font/roboto-blackitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/roboto-blackitalic-webfont.woff2') format('woff2'),
+         url('font/roboto-blackitalic-webfont.woff') format('woff'),
+         url('font/roboto-blackitalic-webfont.ttf') format('truetype'),
+         url('font/roboto-blackitalic-webfont.svg#robotoblack_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotobold';
+    src: url('font/roboto-bold-webfont.eot');
+    src: url('font/roboto-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/roboto-bold-webfont.woff2') format('woff2'),
+         url('font/roboto-bold-webfont.woff') format('woff'),
+         url('font/roboto-bold-webfont.ttf') format('truetype'),
+         url('font/roboto-bold-webfont.svg#robotobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotoblack';
+    src: url('font/roboto-black-webfont.eot');
+    src: url('font/roboto-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/roboto-black-webfont.woff2') format('woff2'),
+         url('font/roboto-black-webfont.woff') format('woff'),
+         url('font/roboto-black-webfont.ttf') format('truetype'),
+         url('font/roboto-black-webfont.svg#robotoblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+a:hover,
+a:active,
+a:focus{
+	outline-color: white;
+	outline: 0;
+}
+
+body{
+	font-family: 'oswaldregular', sans-serif;
+	font-size: 16px;
+}
+
+strong{
+	font-family: 'robotobold', sans-serif;
+	font-weight: normal;
+    font-style: normal;
+}
+
+
+p{
+	font-family: 'robotolight', sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	padding: 0 0 1em;
+	line-height: 1.5;
+}
+
+small{
+	font-family: 'robotomedium', sans-serif;
+}
+
+em{
+	font-family: 'robotolight', sans-serif;
+}
+
+
+.site-content{
+	min-height: 550px;
+	height: 550px;
+	height: auto!important;
+}
+
+.header-media{
+	position: absolute;
+	right: 10px;
+	top:40px;
+}
+
+.header-media ul{
+	margin: 0;
+	padding: 0;
+}
+
+.header-media ul li{
+	list-style-type: none;
+	display: block;
+	float: left;
+	padding: 0 10px;
+	cursor: pointer;
+}
+
+
+/*---------------------------------------------------------------------*/
+/*  MENU
+/*---------------------------------------------------------------------*/
+
+.mobile-brand {
+    margin-top: 0;
+    padding: 9px 10px;
+/*     background-color: #03475d; */
+}
+
+.mobile-logo-text{
+	display: none;
+}
+
+.mobile-logo-text h1{
+	font-family: "oswaldmedium",sans-serif;
+	padding: 0;
+	margin: 0;
+	line-height: 1.5;
+}
+
+.mobile-logo-text a{
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.navbar-brand{
+	padding: 0;
+	display: inline-block;
+/* 	display: table; */ /*Make logo centered*/
+}
+/*
+.navbar-brand{
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+  padding-top: 0;
+}
+*/
+
+/*
+.navbar-brand > img{
+	background-color: #fff;
+	border-radius: 0 0 10px 10px;
+	box-shadow: 2px 2px 2px #666;
+	padding: 2em;
+}
+*/
+
+
+
+.navbar > .container .navbar-brand{
+	margin-left: 0;
+}
+
+.navbar-toggle{
+	background-color: transparent;
+}
+.navbar-toggle .icon-bar{
+	background-color: #fff;
+}
+
+
+.navbar-nav > li > a{
+	color: #fff;
+	text-transform: uppercase;
+	font-family: "robotomedium",sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+.nav > li > a:focus, 
+.nav > li > a:hover{
+	background-color: transparent;
+	color: #69b139;
+}
+
+.navbar-nav li.current_page_item a,
+.navbar-nav li.current-menu-item a{
+	color: #69b139;
+}
+
+#menu-left-menu,
+#menu-right-menu {
+    padding: 5em 0;
+}
+
+
+#menu-complete-menu{
+	background-color: #03475d; 
+/* 	background-color: rgba(3, 71, 93, 0.8); */
+	padding: 1em;	
+}
+
+/*Dropdown Menu*/
+
+/*
+
+.navbar-nav .open .dropdown-menu{
+	background-color: #03475d;
+    min-width: 250px;
+    padding: 0;
+    border: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    font-size: 16px;
+}
+.dropdown-menu > li > a,
+.navbar-nav .open .dropdown-menu > li a{
+	color: #fff;
+	padding: 15px;
+	text-transform: capitalize;
+	font-family: 'robotolight';
+	font-size: 16px;
+	font-weight: normal;
+}
+.dropdown-menu > li > a:focus, 
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:active,
+.navbar-nav .open .dropdown-menu > li >a:focus,
+.navbar-nav .open .dropdown-menu > li >a:hover,
+.navbar-nav .open .dropdown-menu > li >a:active{
+	background-color: #69b139;
+	color: #fff;
+}
+
+.dropdown-menu > .active > a, 
+.dropdown-menu > .active > a:focus, 
+.dropdown-menu > .active > a:hover{
+	background-color: #318480;
+}
+*/
+
+
+
+.sub-menu{
+	background-color: #03475d;
+    padding: 0;
+    border: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    font-size: 16px;
+    background-clip: padding-box;
+    display: none;
+    float: left;
+    left: 0;
+    list-style: outside none none;
+    min-width: 160px;
+    position: absolute;
+    text-align: left;
+    top: 100%;
+    z-index: 1000;
+    
+}
+
+.navbar ul li:hover > ul{
+	display: block;
+}
+
+.navbar ul li ul li{
+	float: none;
+	position: relative;
+}
+
+.sub-menu > li > a{
+	display: block;
+	clear: both;
+	white-space: nowrap;
+	padding: 15px;
+	color: #fff!important;
+	text-transform: uppercase;
+	font-family: 'robotolight', sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	border-bottom: 1px solid #ccc;
+	letter-spacing: 1px;
+}
+
+.sub-menu > li:last-child a{
+	border-bottom: 0;
+}
+ 
+.sub-menu > li > a:focus, 
+.sub-menu > li > a:hover{
+	background-color: #69b139;
+	color: #fff;
+	text-decoration: none;	
+}
+
+.sub-menu > li.current_page_item a,
+.sub-menu > li.current-menu-item a{
+	background-color: #69b139;
+}
+
+
+#pem-navbar-collapse-complete .sub-menu {
+    display: block;
+    position: relative;
+    float: none;
+}
+
+/*---------------------------------------------------------------------*/
+/*  3. PRELOADER
+/*---------------------------------------------------------------------*/
+#jpreOverlay {
+  background-color: #0d0c0d;
+}
+
+#jpreLoader {
+  width: 100%;
+  height: 5px;
+}
+
+#jpreBar {
+  background-color: #c80a48;
+}
+
+
+
+/*---------------------------------------------------------------------*/
+/*  OWL CAROUSEL
+/*---------------------------------------------------------------------*/
+/*
+.owl-controls .owl-dots {
+    bottom: 65px;
+    position: absolute;
+    width: 100%;
+    z-index: 20;
+}
+
+.owl-controls .owl-nav {
+    left: 0;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
+.owl-dots .owl-dot.active span, 
+.owl-dots .owl-dot:hover span {
+    background: #869791 none repeat scroll 0 0;
+}
+
+.owl-dots .owl-dot span {
+    background: #d6d6d6 none repeat scroll 0 0;
+    border-radius: 30px;
+    display: block;
+    height: 10px;
+    margin: 5px 7px;
+    transition: opacity 200ms ease 0s;
+    width: 10px;
+}
+
+.owl-dots .owl-dot {
+    display: inline-block;
+}
+
+
+
+.owl-controls .owl-nav .owl-prev {
+    left: 50px;
+}
+.owl-controls .owl-nav .owl-next {
+    right: 50px;
+}
+
+.owl-controls .owl-nav .owl-prev, 
+.owl-controls .owl-nav .owl-next {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    font-size: 50px;
+    font-weight: 700;
+    margin: -25px 0 0;
+    opacity: 0.7;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    z-index: 20;
+}
+*/
+
+
+
+/*---------------------------------------------------------------------*/
+/*  BOOTSTRAP CARUSEL FULLSCREEN
+/*---------------------------------------------------------------------*/
+
+.full-screen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.item .carousel-caption .jumbotron{
+	background-color: transparent;
+}
+
+.carousel-caption{
+	top:37%;
+	text-shadow: none;
+	z-index: 101;
+}
+
+
+.item .carousel-caption .jumbotron h2{
+	font-size: 20px;
+	font-family: 'robotomedium', sans-serif;
+	font-weight: normal;
+	text-transform: uppercase;
+	color: #03475d;
+}
+
+.item .carousel-caption .jumbotron h1{
+	font-size: 68px;
+	font-family: 'oswaldmedium', sans-serif;
+	font-weight: normal;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.item .carousel-caption .jumbotron .carousel-lead p,
+.item .carousel-caption .jumbotron .lead{
+	font-size: 18px;
+	font-family: 'robotolight', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	color: #03475d;
+}
+
+.item .carousel-caption .jumbotron .carousel-lead p > strong,
+.item .carousel-caption .jumbotron .carousel-lead p > strong > em{
+	font-family: 'robotomedium', sans-serif;
+	font-weight: normal;
+}
+
+
+.carousel-indicators{
+	bottom: 25px;
+	z-index: 102;
+}
+.carousel-indicators li{
+	background-color: #fff;
+}
+
+.carousel-indicators li,
+.carousel-indicators .active{
+	width: 17px;
+	height: 17px;
+}
+
+.carousel-indicators .active{
+	background-color: #03475d;
+}
+
+.carousel-control{
+	z-index: 110;
+}
+
+.carousel-control .glyphicon-menu-left, 
+.carousel-control .icon-prev {
+    margin-left: -10px;
+}
+.carousel-control .glyphicon-menu-left, 
+.carousel-control .glyphicon-menu-right, 
+.carousel-control .icon-next, 
+.carousel-control .icon-prev {
+    font-size: 48px;
+    height: 48px;
+    margin-top: -10px;
+    width: 48px;
+}
+
+.carousel-control .glyphicon-menu-left, 
+.carousel-control .icon-prev {
+    left: 50%;
+    margin-left: -10px;
+}
+.carousel-control .glyphicon-menu-left, 
+.carousel-control .glyphicon-menu-right, 
+.carousel-control .icon-next, 
+.carousel-control .icon-prev {
+    display: inline-block;
+    margin-top: -10px;
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+}
+.carousel-control .glyphicon-menu-right, 
+.carousel-control .icon-next {
+    margin-right: -10px;
+}
+.carousel-control .glyphicon-menu-right, 
+.carousel-control .icon-next {
+    margin-right: -10px;
+    right: 50%;
+}
+
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+	min-width: 100%;
+	min-height: 100%;
+	-webkit-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+}
+.video-content {
+    float: left;
+    height: 100%;
+    position: relative;
+    width: 100%;
+/*     z-index: 999; */
+}
+.banner-video {
+    height: 100%;
+    opacity: 1;
+    position: relative;
+    transition: all 0.5s ease 0s;
+    width: 100%;
+/*     z-index: 99; */
+}
+
+.banner-video iframe {
+    height: 150%;
+    left: -25%;
+    max-height: 500%;
+    max-width: 500%;
+    position: absolute;
+    top: -25%;
+    width: 150%;
+}
+
+.bg-black-banner{
+	background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 100;	
+}
+
+/*---------------------------------------------------------------------*/
+/*  ABOUT - HOME
+/*---------------------------------------------------------------------*/
+
+.home-about{
+	background-color: #fff;
+	padding-top: 48px;
+	padding-bottom: 48px;
+}
+
+.home-about .jumbotron{
+	background-color: #fff;
+	text-align: center;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	max-width: 70%;
+	padding-bottom: 0;
+	padding-top: 0;
+}
+
+.home-about .jumbotron h1{
+	color: #03475d;
+	font-family: 'oswaldmedium', sans-serif;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 45px;
+}
+
+.home-about .jumbotron p,
+.home-about .thumbnail .caption p{
+	font-family: 'robotolight', sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	font-style: normal;
+	color: #494949;
+}
+
+.home-about .thumbnail{
+	text-align: center;
+	border: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+.home-about .thumbnail .caption h3{
+	font-family: 'oswaldmedium', sans-serif;
+	color: #69b139;
+	font-size:25px;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+.home-about .thumbnail .caption btn-link,
+.home-about .thumbnail .caption a{
+	font-family: 'oswaldlightitalic', sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: uppercase;
+	color: #69b139;
+}
+
+
+/*Adjust images and its contents if they have different height */
+.home-about .frame{
+	position: relative;
+	height: 94px;
+	
+}
+.frame a > img, 
+.frame > img{
+	max-height: 100%;  
+    max-width: 100%; 
+    width: auto;
+    height: auto;
+    position: absolute;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    margin: auto;
+}
+
+/*---------------------------------------------------------------------*/
+/*  ABOUT
+/*---------------------------------------------------------------------*/
+
+#page-header{
+	height: 160px;
+}
+
+.entry-header{
+	text-align: center;
+}
+
+.entry-header .entry-sub-title{
+	color: #898989;
+	font-family: 'robotomedium', sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+.entry-header .entry-title{
+	font-family: 'oswaldmedium', sans-serif;
+	color: #03475d;
+	font-size: 45px;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+.about .entry-header{
+	padding: 0 0 3em;
+}
+
+.about{
+	padding: 8em 0 0;
+	background-image: url(../images/about-section-bg.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	display: table;
+	position: relative;
+	height: calc(100% - 65px);
+	width: 100%;
+}
+
+.default-page{
+ 	padding-bottom: 5em;
+}
+.about .entry-content p,
+.default-page .entry-content p{
+	font-family: 'robotolight', sans-serif;
+	font-weight: normal;
+	color: #464646;
+	font-size: 16px;
+	padding: 0 0 1em;
+	line-height: 1.5;
+}
+
+
+.default-page .entry-content h3,
+.default-page .entry-content h4,
+.default-page .entry-content h5,
+.default-page .entry-content h6{
+	color: #03475d;
+    font-family: "robotomedium",sans-serif;
+    text-transform: capitalize;
+}
+.default-page .entry-content h3{
+	font-size: 20px;
+}
+.default-page .entry-content h4{
+	font-size: 18px;
+}
+.default-page .entry-content h5{
+	font-size: 16px;
+}
+.default-page .entry-content h6{
+	font-size: 14px;
+}
+
+.partners{
+	padding: 5em 0;
+}
+
+.partners .entry-header{
+	padding: 0;
+}
+
+
+.nevada-wrapper{
+	position: relative;
+}
+.nevada-sign{
+	height: auto;
+    left: 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.left-col-contents{
+	padding-bottom: 3em;
+}
+
+
+.partners-logo .frame{
+	position: relative;
+	height: 161px;
+}
+
+.partners-logo .frame > img{ 
+	max-height: 100%;  
+    max-width: 100%; 
+    width: auto;
+    height: auto;
+    position: absolute;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    margin: auto;
+    top:0;
+ }
+
+
+.wrapcenter {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    height: 161px;
+}
+.wrapcenter * {
+    vertical-align: middle;
+}
+
+
+/*---------------------------------------------------------------------*/
+/*  MANAGEMENT & ADVISORS
+/*---------------------------------------------------------------------*/
+
+.team{
+	background-color: #fff;
+	padding-bottom: 3em;
+}
+
+.team .entry-content p{
+	padding: 0 0 1em;
+	line-height: 1.5;
+}
+
+
+.team-photo .thumbnail{
+	border: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.team-photo .thumbnail img{
+	width: 143px;
+	height: 142px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+}
+
+.team-photo .thumbnail img.grayscale {
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+}
+
+.team-photo .thumbnail img.grayscale:hover {
+  filter: none;
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  -ms-filter: grayscale(0%);
+  -o-filter: grayscale(0%);
+}
+
+
+
+.team-photo .thumbnail .caption h3{
+	font-family: 'robotobold', sans-serif;
+	font-size: 16px;
+	color: #03475d;
+	text-transform: uppercase;	
+	margin-bottom: 5px;
+}
+
+.team-photo .thumbnail .caption a:hover{
+	text-decoration: none;
+	outline: 0;
+	outline-color: white;
+}
+
+.team-photo .thumbnail .caption h4,
+.team-header h4{
+	font-family: 'robotomedium', sans-serif;
+	color: #959595;
+	font-size: 14px;
+	text-transform: uppercase;
+	margin-top: 0;	
+}
+
+.team-photo .thumbnail .caption a:active,
+.team-photo .thumbnail .caption a:visited{
+	outline: 0;
+	outline-color: white;
+	color: #03475d;
+}
+
+.team-details{
+/* 	padding: 0 10em 0 2em; */
+/* 	margin: 0 0 3em; */
+}
+
+.team-header{
+	border-bottom: 1px dashed #707070;
+    margin: 0 0 2em;
+    padding: 0 0 1em;
+}
+
+.team-header h3{
+	font-family: 'robotobold', sans-serif;
+	font-size: 20px;
+	color: #03475d;
+	text-transform: uppercase;
+	margin-bottom: 5px;
+}
+
+.team-profile,
+.team-profile p{
+	color: #636363;
+	font-family: 'robotolight', sans-serif;
+	font-size: 16px;
+}
+
+.team-profile ul,
+.team-profile ol{
+	margin: 0;
+	padding: 0 0 0 1em;
+}
+
+.team-profile ul li,
+.team-profile ol li{
+	line-height: 1.5;
+	padding: 0 0 1em;
+}
+
+
+.team-details section:not(#a) {
+    display: none;
+}
+.team-nav-scroll{
+	position: absolute;
+	bottom: 0;
+	right: 25%;
+}
+.team-nav-scroll > a{
+	display: block;
+	width: 15px;
+    height: 15px;
+    background: #fff;
+    border: 1px solid #707070;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    text-indent: -9999px;
+    margin: 0 0 20px;
+    outline: 0;
+    outline-color: #fff;
+}
+
+.team-nav-scroll > a.highlight{
+	background: #03475d;
+}
+
+/*---------------------------------------------------------------------*/
+/*  TECHNOLOGY
+/*---------------------------------------------------------------------*/
+
+.entry-header{
+	padding: 8em 0 3em;
+}
+
+.tech .entry-header h3{
+	font-family: 'robotomedium', sans-serif;
+	font-size: 20px;
+	color: #03475d;
+	margin-top: 30px;
+	margin-bottom: 5px;
+}
+
+.tech-first-section,
+.tech-third-section{
+	background-color: #f1f1f1;
+	padding: 3em 0;
+}
+
+.tech .entry-content h3{
+	font-family: 'robotomedium', sans-serif;
+	font-size: 20px;
+	color: #03475d;
+	text-transform: capitalize;
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+
+.tech .entry-content p,
+.tech .entry-header .lead{
+	font-family: 'robotolight', sans-serif;
+	font-size: 16px;
+	color: #636363;
+}
+
+.tech .entry-header .lead{
+	line-height: 1.6;	
+	margin-bottom: 5px;
+}
+
+.tech-two-section{
+	background-color: #fff;
+	padding: 3em 0;
+	
+}
+
+.tech-two-section .footnote{
+	color: #898989;
+	text-align: left;
+}
+
+.tech-two-section .footnote small{
+}
+
+.tech-two-section .media-heading{
+	font-family: 'robotobold', sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #69b139;
+}
+
+.tech-two-section .media-body p{
+	font-family: 'robotolight', sans-serif;
+	font-size: 14px;
+	color: #636363;
+}
+
+
+.tech-third-section .caption{
+	padding: 10px 0 0;
+}
+
+.tech-third-section .caption p{
+	font-family: 'robotolight_italic', sans-serif;
+	font-size: 14px;
+	color: #636363;
+	text-align: right;
+}
+
+
+.tech-fourth-section{
+	background-color: #fff;
+	padding: 3em 0 5em;
+	text-align: center;
+}
+
+.tech-fourth-section h1{
+	font-family: 'oswaldmedium', sans-serif;
+	color: #03475d;
+	font-size: 45px;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+	margin-top: 0;
+}
+
+.video-place {
+    max-width: 675px;
+    margin: 0 auto;
+}
+
+
+.inner{
+	padding: 0 1em;
+}
+
+
+/*---------------------------------------------------------------------*/
+/*  QUICK-FACTS
+/*---------------------------------------------------------------------*/
+
+.facts h2{
+	font-family: 'oswaldmedium', sans-serif;
+	color: #69b139;
+	text-transform: uppercase;
+	font-size: 35px;
+}
+.facts h3{
+	font-family: 'robotomedium', sans-serif;
+	color: #03475d;
+	font-size: 20px;
+}
+
+.facts h3:first-child{
+	margin-top: 0;
+}
+
+.facts p,
+.facts  li{
+	font-family: 'robotolight', sans-serif;
+	font-size: 16px;
+	color: #636363;
+}
+
+.facts a{
+	color: #69b139;
+	text-decoration: none;
+}
+
+.facts ul,
+.facts ol{
+	margin: 0;
+	padding: 0 0 0 1em;
+}
+
+.facts  li{
+	line-height: 1.5;
+	padding: 0;
+}
+
+.facts-first-section .location{
+	text-align: center;
+}
+
+.facts-first-section .location h2{
+	margin-top: 0;
+}
+.facts-first-section .location h3{
+	color: #69b139;
+	margin-top: 10px;
+}
+.facts-first-section .location p{
+	margin: 0;
+	padding: 0;
+}
+
+.location-map{
+	padding: 2em 0 0;
+}
+
+.center-border{
+	border-right: 1px dashed #707070;
+}
+
+.facts-third-section{
+	background-color: #fff;
+	margin: 0 0 3em;
+}
+
+.project-highlights{
+	padding: 0 3em;
+}
+
+.project-highlights ul li{
+	border: 0;
+	padding: 15px 0;
+}
+
+.facts-first-section .project-highlights p{
+	padding: 10px 0 0;
+}
+
+.facts-two-section{
+	background: url('../images/facts-two-section-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+	background-size: cover;
+	text-rendering: optimizeLegibility;
+	min-height: 812px;
+	background-attachment: fixed;
+/* 	display: table; */
+	position: relative;
+	width: 100%;
+	margin: 3em 0;
+}
+
+.facts-two-section h2{
+	font-family: 'oswaldmedium', sans-serif;
+	color: #fff;
+	font-size: 45px;
+	font-style: normal;
+	font-weight: normal;
+	text-align: center;
+	margin-top: 1.5em;
+}
+
+.facts-two-section .lead{
+	font-family: 'robotolight', sans-serif;
+	font-size: 18px;
+	color: #e1e1e1;
+	text-align: center;
+}
+.resource-table table{
+	margin-bottom: 5px;
+}
+
+.resource-table table thead{
+	background-color: #69b139;
+	color: #fff;
+}
+
+.resource-table table > thead > tr > th{
+	font-family: 'oswaldlight', sans-serif;
+	text-align: center;
+	font-size: 18px;
+}
+
+.resource-table table > tbody{
+	background-color: #fff;
+}
+
+.resource-table table > tbody > tr > td{
+	font-family: 'robotomedium', sans-serif;
+	text-align: center;
+	font-size: 16px;
+	color: #494949;
+	padding: 10px 0;
+	border: 1px dashed #707070;
+	vertical-align: middle;
+	height: 70px;
+}
+
+.resource-table table > tbody > tr:last-child td{
+	color: #69b139;
+	text-transform: uppercase;
+}
+
+.resource-table table > tbody > tr > td em{
+	font-family: 'robotolight', sans-serif;
+}
+
+.resource-table .footnote{
+	text-align: right;
+	color: #e1e1e1;
+}
+
+.resource-table .footnote p{
+	color: #e1e1e1;
+	padding: 0;
+	margin: 0;
+}
+
+.footnote a{
+	color: #69b139;
+}
+
+
+.facts-fourth-section{
+	background-color: #f1f1f1;
+	padding: 2em 0 0;
+}
+
+
+.facts-fourth-section h2{
+	font-size: 45px;
+	color: #03475d;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.facts-fourth-section .thumbnail{
+	border: 0;
+	background-color: transparent;
+	text-align: center;
+	margin-bottom: 0;
+	padding: 0;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+}
+
+.facts-fourth-section .thumbnail .num-bg{
+	margin: 0 auto;
+	width: 50px;
+	height: 50px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+	background-color: #fff;
+	border: 2px solid #69b139;
+}
+
+.facts-fourth-section .thumbnail .num{
+	color: #69b139;
+	font-family: 'oswaldlight', sans-serif;
+	font-size: 20px;
+	position: absolute;
+/* 	display: table; */
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	line-height: 2.5;
+}
+
+.facts-fourth-section .thumbnail .caption{
+	min-height: 150px;
+}
+
+.facts-fifth-section{
+	background-color: #fff;
+	padding: 1em 0;
+	text-align: center;
+}
+
+.facts-fifth-section h3{
+	text-transform: uppercase;
+	font-family: 'oswaldmedium', sans-serif;
+	font-size: 30px;
+}
+
+.download-inner {
+    padding: 1em 20em;
+}
+
+.facts-fifth-section .thumbnail{
+	border: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	margin-bottom: 10px;
+	padding: 0;
+}
+
+.facts-fifth-section .thumbnail .caption p{
+	font-family: 'robotolight', sans-serif;
+	font-size: 15px;
+	color: #636363;
+	margin: 0;
+}
+
+.facts-fifth-section .thumbnail .caption .btn-default{
+	font-family: 'oswaldmedium', sans-serif;
+	font-size: 13.3px;
+	color: #fff;
+	background-color: #69b139;
+	text-transform: uppercase;
+}
+
+/*---------------------------------------------------------------------*/
+/*  POST NAVIGATION
+/*---------------------------------------------------------------------*/
+
+.entry-meta,
+.entry-footer{
+	font-family: 'robotoregular', sans-serif;
+}
+
+
+.single .entry-meta .byline{
+	display: none;
+}
+
+.nav-links{
+	border-top: 1px dashed #707070;
+/* 	border-bottom: 1px dashed #707070; */
+	padding: 1em 0 0;
+	margin: 1em 0 5em;
+}
+
+
+.navigation .nav-next a,
+.navigation .nav-previous a{
+	font-family: 'robotoregular', sans-serif;
+	color: #69b139;
+	font-size: 16px;
+	text-transform: capitalize;
+}
+
+.comments-area {
+    clear: both;
+    padding: 1em 0;
+}
+
+input[type=text],
+input[type=email],
+input[type=url],
+input[type=search], 
+textarea{
+	font-family: 'robotolight', sans-serif;
+	border: 1px solid #69b139;
+	width: 100%;
+	padding: 10px;
+}
+
+
+.submit,
+.search-submit{
+	font-family: 'oswaldlight', sans-serif;
+	background-color: #03475D;
+	color: #fff;
+	-webkit-border-radius: 4px;	
+	-moz-border-radius: 4px;	
+	border-radius: 4px;
+	font-size: 16px;
+	font-weight: normal;
+	font-weight: normal;
+	border: 0;	
+	text-transform: uppercase;
+}
+
+.submit:hover,
+.search-submit:hover{
+	background-color: #69b139;
+	color: #fff;
+}
+
+.submit,
+.search-submit{
+	border: 0;
+	padding: 10px 20px;
+}
+
+
+/*---------------------------------------------------------------------*/
+/*  POST CONTENTS
+/*---------------------------------------------------------------------*/
+
+label{
+	display: block;
+}
+pre,
+blockquote{
+	background-color: #F0F7E9;
+	color: #318480;
+	border: 0; 
+}
+
+blockquote{
+	border-left: 0;
+}
+.tagcloud a{
+	background: #318480;
+    border-radius: 2px;
+    color: #ffffff;
+    font-size: 8pt;
+    padding: 5px 20px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.tagcloud a:hover{
+	background-color: #e98a2f;
+}
+
+.entry-meta a{
+	color: #69b139;
+}
+
+.entry-content ul,
+.entry-content ol{
+	margin: 0;
+	padding: 0 0 0 1em;
+}
+
+.entry-content ul li,
+.entry-content ol li{
+	font-family: "robotolight", sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+
+
+/*---------------------------------------------------------------------*/
+/*  SUPER RSS READER STYLES
+/*---------------------------------------------------------------------*/
+.srr-style-smodern .srr-item{
+	border-radius: 0;
+}
+.srr-wrap .srr-item{
+	font-family: "robotolight",sans-serif;
+	font-size: 16px;
+	text-align: center;
+	padding: 25px 15px 0;
+}
+
+.srr-style-smodern .even{
+	background-color: #fff;
+}
+
+.srr-title{
+	border-bottom: 1px dashed #ddd;	
+	padding-bottom:25px;
+}
+
+.srr-wrap .srr-item:last-child .srr-title{
+	border-bottom: 0;
+}
+.srr-title a{
+	color: #494949;	
+}
+.srr-title a:hover{
+	color: #69b139;
+	text-decoration: none;
+}
+
+/*---------------------------------------------------------------------*/
+/*  TWITTER HACK
+/*---------------------------------------------------------------------*/
+.twitter-timeline.twitter-timeline-rendered{
+	padding-left: 15px!important;
+	padding-right: 15px!important;
+}
+
+/*---------------------------------------------------------------------*/
+/*  SEARCH FORM
+/*---------------------------------------------------------------------*/
+
+.search-form .btn{
+	font-family: "robotomedium",sans-serif;
+}
+
+
+/*---------------------------------------------------------------------*/
+/*  SEARCH RESULTS AND 404 PAGE
+/*---------------------------------------------------------------------*/
+.serach-results,
+.no-results,
+.error-404 {
+	padding: 8em 0 0;
+}
+.serach-results .page-header,
+.no-results .page-header,
+.error-404 .page-header{
+	text-align: center;
+}
+
+.search-found{
+	padding: 0 0 2em;
+}
+
+.search-found .entry-header{
+	padding: 0;
+}
+
+.search-found .entry-header .entry-title{
+	font-size: 25px;
+	text-transform: capitalize;
+	text-align: left;
+}
+
+.search-found .entry-header a,
+.search-found .entry-footer a{
+	color: #03475d;
+}
+
+.no-results .page-content,
+.error-404 .page-content{
+	text-align: center;
+}
+
+.no-results .page-content{
+	margin-bottom: 5em;	
+}
+
+.search-nav .nav-previous{
+	float: left;
+}
+.search-nav .nav-next{
+	float: right;
+}
+.search-nav .nav-previous,
+.search-nav .nav-next{
+	
+}
+.search-found .entry-header .entry-meta{
+	text-align: left;
+}
+
+/*---------------------------------------------------------------------*/
+/*  FOOTER
+/*---------------------------------------------------------------------*/
+
+.signup{
+	background: linear-gradient(rgba(102, 102, 102, 1), rgba(102, 102, 102, 0.8)),
+                rgba(102,102,102,1) url('../images/signup-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+	background-size: cover;
+	text-rendering: optimizeLegibility;
+	min-height: 315px;
+	background-attachment: fixed;
+	display: table;
+	position: relative;
+	width: 100%;
+/*
+	display: table;
+	position: relative;
+	height: calc(100% - 313px);
+	height: 300px;
+	width: 100%;
+*/
+}
+
+.signup .thumbnail{
+	background-color: transparent;
+	text-align: center;
+	border: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	margin: 0;
+	padding: 5em 0;
+}
+
+.signup .thumbnail .caption{
+	padding: 0;
+	color: #fff;
+}
+
+.signup .thumbnail .caption h3{
+	font-family: 'oswaldmedium', sans-serif;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: uppercase;
+	padding: 10px 0;
+}
+
+.signup .thumbnail .caption span.light{
+	font-family: 'oswaldlight', sans-serif;
+}
+
+.signup .thumbnail .caption a{
+	font-family: 'oswaldmedium', sans-serif;
+	font-size: 13.3px;
+	color: #03475d;
+	text-transform: uppercase;
+	box-shadow: 1px 1px 1px #000;
+	line-height: 1.5;
+	padding: 5px 25px;
+	border: 0;
+}
+
+/* NEWS - POSTS */
+
+.news-posts{
+	background-image: url(../images/news-bg.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+/* 	display: table; */
+	position: relative;
+	text-rendering: optimizeLegibility;
+/* 	width: 100%; */
+/* 	height: 700px; */
+}
+
+.news-posts{
+	padding: 4em 0;
+}
+
+.news-posts .entry-header{
+	padding: 0 0 1em;
+}
+
+
+.news-posts .entry-header .lead{
+	color: #494949;
+	font-family: 'robotolight', sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: normal;
+}
+
+.news-posts .entry-header .entry-title{
+	font-family: 'oswaldmedium', sans-serif;
+	color: #03475d;
+	font-size: 45px;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+.panel-default{
+	border: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	background-color: #fff;
+}
+
+.panel-default > .panel-heading{
+	background-color: #69b139;
+	border: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	padding: 14px 15px 10px;
+}
+
+.panel-title{
+	font-family: 'oswaldmedium', sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+}
+
+.list-group-item{
+	font-family: 'robotolight', sans-serif;
+	font-size: 16px;
+	color: #494949;
+	padding: 25px 0;
+	margin-left: 15px;
+	margin-right: 15px;
+	text-align: center;
+	border-style: dashed;
+}
+
+.list-group-item a{
+	color: #494949;
+}
+
+
+.list-group-item a:hover{
+	color: #69b139;
+	text-decoration: none;
+}
+
+
+.lithium-news,
+.company-news,
+.tweets{
+	padding: 0 2.9em;
+}
+
+
+
+/* Footer Widget, social media , copyright */
+.site-footer{
+	background-color: #03475d;
+	padding: 1em 0;
+}
+
+.contact-details{
+	padding: 5em 0;
+}
+
+.contact-details .contact{
+	text-align: right;
+}
+
+
+.contact-details .widget-title{
+	font-size: 20px;
+	font-family: 'robotomedium', sans-serif;
+	font-weight: normal;
+	color: #00b4f0;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+}
+
+
+.contact-details .textwidget,
+.contact-details .textwidget a,
+.contact-details .textwidget address{
+	color: #fff;
+	font-family: 'robotothin';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+}
+
+.pem-social {
+    margin: 3em auto 0;
+    display: table;
+}
+.pem-social a:link, 
+.pem-social a:visited, 
+.pem-social a:hover, 
+.pem-social a:active {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin: 10px 20px;
+    padding: 0;
+    text-indent: -9999em;
+    background-image: url('../images/social-icons.png');
+    background-repeat: no-repeat;
+}
+.pem-fb {
+    background-position: 0 0;
+}
+.pem-lnk {
+    background-position: -78px 0px;
+}
+.pem-twt {
+    background-position: -155px 0;
+}
+
+.site-info{
+	padding: 2em 0;	
+}
+
+.site-info p{
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 15px;
+	font-family: 'robotomedium', sans-serif;
+	font-weight: normal;
+}
+
+
+.site-info p span.copyright{
+	font-family: 'robotothin', sans-serif;
+	font-weight: normal;
+}
+
+.footer-twitter{
+	height: 460px;
+}
